@@ -63,7 +63,7 @@ var leftBeer = bodymovin.loadAnimation({
 
 var rightBeer = bodymovin.loadAnimation({
   container: document.getElementById('beer-right'),
-  path: '../lottie/beer-right.json',
+  path: '/lottie/beer-right.json',
   renderer: 'svg',
   loop: true,
   autoplay: true,
@@ -72,7 +72,7 @@ var rightBeer = bodymovin.loadAnimation({
 
 var pie = bodymovin.loadAnimation({
   container: document.getElementById('pie'),
-  path: '../lottie/pie.json',
+  path: '/lottie/pie.json',
   renderer: 'svg',
   loop: true,
   autoplay: true,
@@ -81,7 +81,7 @@ var pie = bodymovin.loadAnimation({
 
 var logoAnim = bodymovin.loadAnimation({
   container: document.getElementById('logo'),
-  path: '../lottie/logo.json',
+  path: '/lottie/logo.json',
   renderer: 'svg',
   autoplay: false,
   name: "Logo Animation"
@@ -89,7 +89,7 @@ var logoAnim = bodymovin.loadAnimation({
 
 var headerBee = bodymovin.loadAnimation({
   container: document.getElementById('header-bee'),
-  path: '../lottie/header-bee.json',
+  path: '/lottie/header-bee.json',
   renderer: 'svg',
   autoplay: false,
   name: "Header Bee Animation"
@@ -97,7 +97,7 @@ var headerBee = bodymovin.loadAnimation({
 
 var code = bodymovin.loadAnimation({
   container: document.getElementById('code-animation'),
-  path: '../lottie/code.json',
+  path: '/lottie/code.json',
   renderer: 'svg',
   autoplay: false,
   name: "Code Animation",
@@ -105,7 +105,7 @@ var code = bodymovin.loadAnimation({
 
 var beerPage = bodymovin.loadAnimation({
   container: document.getElementById('beer-page'),
-  path: '../lottie/beer-left.json',
+  path: '/lottie/beer-left.json',
   renderer: 'svg',
   loop: true,
   autoplay: true,
@@ -122,7 +122,7 @@ var beerPage = bodymovin.loadAnimation({
 
 var lids = bodymovin.loadAnimation({
   container: document.getElementById('lids'),
-  path: '../lottie/lids.json',
+  path: '/lottie/lids.json',
   renderer: 'svg',
   autoplay: false,
   name: "Lids Animation"
@@ -130,7 +130,7 @@ var lids = bodymovin.loadAnimation({
 
 var pageBee = bodymovin.loadAnimation({
   container: document.getElementById('page-bee'),
-  path: '../lottie/page-bee.json',
+  path: '/lottie/page-bee.json',
   renderer: 'svg',
   autoplay: true,
   loop: true,
